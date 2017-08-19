@@ -1,0 +1,29 @@
+PODS:
+  - DTModelStorage (5.1.0):
+    - DTModelStorage/Core (= 5.1.0)
+  - DTModelStorage/Core (5.1.0)
+  - DTModelStorage/Realm (5.1.0):
+    - DTModelStorage/Core
+    - RealmSwift (~> 2.0)
+  - DTTableViewManager (5.3.0):
+    - DTModelStorage (~> 5.0)
+  - Realm (2.9.1):
+    - Realm/Headers (= 2.9.1)
+  - Realm/Headers (2.9.1)
+  - RealmSwift (2.9.1):
+    - Realm (= 2.9.1)
+
+DEPENDENCIES:
+  - DTModelStorage/Realm
+  - DTTableViewManager
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  DTModelStorage: 47c56a07c59a5381902b0b10b835d1a83d0ea9f2
+  DTTableViewManager: ce8b4e784979787690a2187088f0b77bbfdaa913
+  Realm: f91fb43bd474c4f731a116ebf7392c75dd015920
+  RealmSwift: 207f12a4a36b696c5183c60a1c06d70234a23e56
+
+PODFILE CHECKSUM: 8dc0227af3f844cc0a44aa6dfd72171f2a24903a
+
+COCOAPODS: 1.2.1
